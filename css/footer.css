@@ -1,4 +1,4 @@
-.cabecalhoPrincipal . container {
+.cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,4 +23,27 @@
 
 .rodapePrincipal-contatoForm {
     width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: clumn wrap;
+    height: 250px;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 20%;
+    margin-bottom: 1%;
 }
